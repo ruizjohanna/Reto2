@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cliente Ajax</title>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/funciones.js"></script>
+    </head>
+
+    <body >
+        <div style="text-align: center;">
+            <h2>Cliente Ajax de Peticion HTTP </h2>
+            <hr>
+            <span style="color: blue;"><b>ID</b></span>
+            <input type="text"  id="id">
+            <br>
+            <button onclick="consultar()">MOSTRAR TODO</button>
+            &nbsp;&nbsp;&nbsp;
+            <button onclick="buscarPorID($('#id'))">MOSTAR UNO</button>
+            <hr style="width: 30%; text-align: left;"> 
+            <div id="resultado"></div> 
+            <hr style="width: 30%; text-align: left;"> 
+           <a href="crud.html" title="Agregar Gasto">AGREGAR</a>
+        </div>
+    </body>
+</html>

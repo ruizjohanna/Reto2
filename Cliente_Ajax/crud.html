@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>Cliente Ajax</title>
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="js/funciones.js"></script>
+    </head>
+    <body>
+        <h2>Cliente Ajax de Peticion HTTP </h2>
+        <fieldset style="width: 30%">
+            <legend>Datos del Usuario</legend>
+            <table>
+               
+               <tr>
+                   <th>NOMBE:</th>
+                   <td><input type="text" id="nombre"> </td>
+               </tr> 
+               <tr>
+                    <th>VALOR: $</th>
+                    <td><input type="number" id="valor"> </td>
+                </tr> 
+                <tr>
+                    <th>FECHA:</th>
+                    <td><input type="date" id="fecha"> </td>
+                </tr> 
+                <tr>
+                    <th>DESCRIPCION:</th>
+                    <td><input type="TEXT" id="desc"> </td>
+                </tr> 
+                <tr>
+                    <th>USUARIO:</th>
+                    <td><input type="TEXT" id="user"> </td>
+                </tr> 
+                <tr>
+                    <td colspan="2">
+                        <input type="button" value="GUARDAR" onclick="guardar()"> &nbsp;&nbsp;&nbsp;
+                    </td>
+                </tr> 
+                
+            </table>
+        </fieldset>
+        <br>
+        <a href="consulta.html" title="Consultar Gastos">CONSULTAR</a>
+    </body>
+</html>
